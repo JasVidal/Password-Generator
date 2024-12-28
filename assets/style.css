@@ -6,8 +6,8 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%); 
-    height: 100vh;
+    background: linear-gradient(#183150 5.44%, #041832 66.67%); 
+    height: 150vh;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@ h1 {
     
 }
 
-.boton{
+.boton-generar{
     color: white;
     font-size: 1.5rem;
     border: none;
@@ -118,6 +118,19 @@ h1 {
     width: 243px;
     height: 72px;
     box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+    cursor: pointer;
+}
+
+.boton-limpiar{
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #2a9b37;
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+    width: 243px;
+    height: 72px;
+    box-shadow: 0px 0px 20px 0px rgba(14, 150, 41, 0.5);
     cursor: pointer;
 }
 
@@ -135,5 +148,19 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
+.mensaje-fuerza {
+    width: 820px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #592767;
+    border: none;
+    color: #ffffff;
+    margin: 0 5em;
+    padding: 1em 2em;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: none;
+}
 
 
